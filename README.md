@@ -1,4 +1,4 @@
-**Project Name:**   **Hanging Gardens**
+**Project Name:**   **Happy Garden**
 
 **Application Description:**  
 A multiplayer web game for long-distance friends, couples, or families who want to stay connected. Players share a digital garden where they can plant and grow flowers together asynchronously or synchronously. The game is a casual way of interacting and maintaining emotional closeness despite long distances.
