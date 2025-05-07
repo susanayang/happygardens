@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    
+    <body>
+        <title>Happy Garden</title>
+        <!-- <h5>Grow flowers and send them to your friends!</h5> -->
+        <div class="box" id="box">
+            <div class="pots">
+                <div class="pot-wrapper">
+                    <img src="art_assets/Pixel Art Flower Pack/leaves.png" alt="leaves" class="leaves" data-index="1"/>
+                    <img src="art_assets/Pixel Art Flower Pack/Empty Flower Pots/Flower Pot 2 - RED.png" alt="Flower Pot" class="pot" data-index="1">
+                    <button class="pick-flower-btn" style="display: none;">Pick Flower</button>
+                </div>
+                <div class="pot-wrapper">
+                    <img src="art_assets/Pixel Art Flower Pack/leaves.png" alt="leaves" class="leaves" data-index="2"/>
+                    <img src="art_assets/Pixel Art Flower Pack/Empty Flower Pots/Flower Pot 2 - RED.png" alt="Flower Pot" class="pot" data-index="2">
+                    <button class="pick-flower-btn" style="display: none;">Pick Flower</button>
+                </div>
+                <div class="pot-wrapper">
+                    <img src="art_assets/Pixel Art Flower Pack/leaves.png" alt="leaves" class="leaves" data-index="3"/>
+                    <img src="art_assets/Pixel Art Flower Pack/Empty Flower Pots/Flower Pot 2 - RED.png" alt="Flower Pot" class="pot" data-index="3">
+                    <button class="pick-flower-btn" style="display: none;">Pick Flower</button>
+                </div>
+                <div class="pot-wrapper">
+                    <img src="art_assets/Pixel Art Flower Pack/leaves.png" alt="leaves" class="leaves" data-index="4"/>
+                    <img src="art_assets/Pixel Art Flower Pack/Empty Flower Pots/Flower Pot 2 - RED.png" alt="Flower Pot" class="pot" data-index="4">
+                    <button class="pick-flower-btn" style="display: none;">Pick Flower</button>
+                </div>
+                <div class="pot-wrapper">
+                    <img src="art_assets/Pixel Art Flower Pack/leaves.png" alt="leaves" class="leaves" data-index="5"/>
+                    <img src="art_assets/Pixel Art Flower Pack/Empty Flower Pots/Flower Pot 2 - RED.png" alt="Flower Pot" class="pot" data-index="5">
+                    <button class="pick-flower-btn" style="display: none;">Pick Flower</button>
+                </div>
+                <div class="pot-wrapper">
+                    <img src="art_assets/Pixel Art Flower Pack/leaves.png" alt="leaves" class="leaves" data-index="6"/>
+                    <img src="art_assets/Pixel Art Flower Pack/Empty Flower Pots/Flower Pot 2 - RED.png" alt="Flower Pot" class="pot" data-index="6">
+                    <button class="pick-flower-btn" style="display: none;">Pick Flower</button>
+                </div>  
+            </div>
+
+            <div class="email-window" id="emailWindow" style="display: none;">
+                <div class="email-content">
+                    <h3>Send Your Flower</h3>
+                    <input type="email" id="emailInput" placeholder="Recipient's email" required />
+                    <textarea id="messageInput" placeholder="Optional message"></textarea>
+                    <button id="sendEmailBtn">Send Flower</button>
+                    <button id="closeEmailBtn">Cancel</button>
+                </div>
+            </div>
+
+            <!-- <button class="delete-btn" id="deleteBtn">
+                <img src="art_assets\delete-icon.png" alt="Delete" class="delete-icon">
+            </button> -->
+
+            <button class="water-btn" id="waterBtn">
+                <img src="art_assets\water-icon.png" alt="Water" class="water-icon">
+            </button>
+
+            <button class="shop-btn" id="shopBtn">
+                <img src="art_assets\shop-icon.png" alt="Shop" class="shop-icon">
+            </button>
+
+            <div class="shop-window" id="shopWindow">
+                <div class="shop-content">
+                    <h3>pick a flower to plant</h3>
+                    <div class="flower-grid">
+                        <img src="art_assets/Pixel Art Flower Pack/FLower 5/Flower 5 - PINK.png" alt="Flower 1" class="flower">
+                        <img src="art_assets/Pixel Art Flower Pack/FLower 5/Flower 5 - PURPLE.png" alt="Flower 2" class="flower">
+                        <img src="art_assets/Pixel Art Flower Pack/Flower 12/Flower 12 - YELLOW.png" alt="Flower 3" class="flower">
+                        <img src="art_assets/Pixel Art Flower Pack/Flower 12/Flower 12 - PINK.png" alt="Flower 4" class="flower">
+                        <img src="art_assets/Pixel Art Flower Pack/Flower 8/Flower 8 - RED.png" alt="Flower 5" class="flower">
+                        <img src="art_assets/Pixel Art Flower Pack/Flower 8/Flower 8 - PINK.png" alt="Flower 6" class="flower">
+                        <img src="art_assets/Pixel Art Flower Pack/Flower 9/Flower 9 - ORANGE.png" alt="Flower 7" class="flower">
+                        <img src="art_assets/Pixel Art Flower Pack/Flower 9/Flower 9 - PURPLE.png" alt="Flower 8" class="flower">
+                      </div>
+                      
+
+                    <button id="closeShopBtn" class="close-shop-btn">
+                        <img src="art_assets\close-icon.png" alt="Close Shop" class="close-shop-icon">
+                    </button>
+                  </div>
+            </div>
+
+            <button class="fullscreen-btn" id="fullscreenBtn">
+                <img src="art_assets\fullscreen-icon.png" alt="Fullscreen" class="fullscreen-icon">
+            </button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
