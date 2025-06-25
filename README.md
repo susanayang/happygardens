@@ -13,10 +13,3 @@ A multiplayer web game for long-distance friends, couples, or families who want 
 4/26: Basic web layout + account & game creation <br/>
 4/28: Planting & growing flowers + bulletin board <br/>
 5/1: Add fancier UI <br/>
-
-**Potential Future Exanpsion Ideas:**  
-- Customizable scarecrow avatars to reflect moods
-- In-game currency to unlock more flower types or garden sections
-- Light animations or sound effects for ambience
-- Notifications when friends visit or leave notes
-- Mood-tracking plants that grow differently depending on shared player input
