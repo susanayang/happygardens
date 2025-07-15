@@ -1,7 +1,7 @@
 # Happy Gardens
 
 **A web-based game where players grow virtual flowers and can send them to friends via email.**  
-[Playable in browser](https://syangx.itch.io/vitalthreads)
+[Playable in browser](https://syangx.itch.io/happy-gardens)
 
 Project Structure
 - public/index.html -> game layout, set flower and icon images
